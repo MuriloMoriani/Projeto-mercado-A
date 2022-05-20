@@ -2,11 +2,6 @@ body{
     width: 99%;
     height: 100%;
 }  
-.menu{
-    width: 200px;
-    border: 15px solid green;
-    background-color: blueviolet;
-}
 header{
     background-color: brown;
     margin: auto; 
