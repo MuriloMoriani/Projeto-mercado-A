@@ -1,3 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
 body{
     width: 100%;
     height: 100%;
@@ -6,6 +12,7 @@ body{
 header{
 background-color: red;
 height: 150px;
+margin-top: 0;
 }
 header img{
 margin: auto;
@@ -19,13 +26,15 @@ margin: auto;
 .menu{
     position: fixed;
     float: right;
-    bottom: 100px;
+    background-color: #0AC5FA; 
     border: 1px solid black;
-    margin-right: 0;
-    margin-left: 0;
     width: 14%;
+    margin-top: 20px;
+    margin-left: 7px;
+
 
 }
+.menu a{margin-left: 30px;}
 .menu nav{
     margin: auto;
     padding: 0;
@@ -49,7 +58,8 @@ img{
     background-color: #3b0b33;
     width: 70%;
     margin: 0 auto;
-    height: 1100px;   
+    height: 1100px;
+    margin-top: 20px;   
     
 }
 
@@ -88,6 +98,7 @@ img{
     width: 70%;
     margin: 0 auto;
     height: 500px;
+    margin-top: 20px;
 }
 #caixa2 img{
     margin: 0 auto;
@@ -149,15 +160,14 @@ a{
 li {
     list-style-type: none;
   }
-.menu{
-   background-color: #0AC5FA; 
-}
+
 
 #Temperos{
     background-color: #28702b;
     width: 70%;
     margin: 0 auto;
     height: 500px;
+    margin-top: 20px;
 
 }
 #Temperos img{
@@ -185,7 +195,8 @@ li {
     background-color: #3b0b33;
     width: 70%;
     margin: 0 auto;
-    height: 500px;   
+    height: 500px;
+    margin-top: 20px;   
     
 }
 
@@ -204,143 +215,156 @@ li {
 }
 
 #Doces img{
+margin: 0 auto;
+position: relative;
+}
+#Bebidas{
+    background-color: #FDA442;
+    width: 70%;
+    margin: 0 auto;
+    height: 1150px; 
+    margin-top: 20px;  
+    
+}
+
+#Bebidas figure{
+    margin: 0px;
+    position: relative;   
+
+    padding: 10px;
+    
+}
+#Bebidas p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#Bebidas img{
+margin: 0 auto;
+position: relative;
+}
+#Higiene{
+    background-color: #B2FFF0;
+    width: 70%;
+    margin: 0 auto;
+    height: 910px; 
+    margin-top: 20px;  
+    
+}
+
+#Higiene figure{
+    margin: 0px;
+    position: relative;   
+    float: left;    
+    padding: 10px;
+    
+}
+#Higiene p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+#Higiene img{
+margin: 0 auto;
+position: relative;
+}
+#Verduras{
+    background-color: #FFA780;
+    width: 70%;
+    margin: 0 auto;
+    height: 800px;
+    margin-top: 20px;   
+    
+}
+
+#Verduras figure{
+    margin: 0px;
+    position: relative;   
+    padding: 10px;
+    
+}
+#Verduras p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#Verduras img{
+margin: 0 auto;
+position: relative;
+}
+#Frutas{
+    background-color: #3b0b33;
+    width: 70%;
+    margin: 0 auto;
+    height: 700px;  
+    margin-top: 20px; 
+    
+}
+
+#Frutas figure{
+    margin: 0px;
+    position: relative;   
+    padding: 10px;
+    
+}
+#Frutas p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#Frutas img{
+margin: 0 auto;
+position: relative;
+}
+#Peixes{
+    background-color: #474023;
+    width: 70%;
+    margin: 0 auto;
+    height: 500px;
+    margin-top: 20px;   
+    
+}
+
+#Peixes figure{
+    margin: 0px;
+    position: relative;   
+    float: left;
+    padding: 10px;
+    
+}
+#Peixes p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#Peixes img{
     margin: 0 auto;
     position: relative;
-    }
-
-    #Bebidas{
-        background-color: #FDA442;
-        width: 70%;
-        margin: 0 auto;
-        height: 1150px;   
-        
-    }
-    
-    #Bebidas figure{
-        margin: 0px;
-        position: relative;   
-        padding: 10px;
-        
-    }
-    #Bebidas p{
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        position: relative;
-        text-align: center;
-        color: white;
-    }
-    
-    #Bebidas img{
-        margin: 0 auto;
-        position: relative;
-        }
-
-
-        #Higiene{
-            background-color: #145e4f;
-            width: 70%;
-            margin: 0 auto;
-            height: 910px;   
-            
-        }
-        
-        #Higiene figure{
-            margin: 0px;
-            position: relative;   
-            float: left;
-            padding: 10px;
-            
-        }
-        #Higiene p{
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            position: relative;
-            text-align: center;
-            color: rgb(255, 255, 255);
-        }
-        
-        #Higiene img{
-            margin: 0 auto;
-            position: relative;
-            }
-            #Verduras{
-                background-color: #FFA780;
-                width: 70%;
-                margin: 0 auto;
-                height: 800px;   
-                
-            }
-            
-            #Verduras figure{
-                margin: 0px;
-                position: relative;   
-                padding: 10px;
-                
-            }
-            #Verduras p{
-                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-                position: relative;
-                text-align: center;
-                color: white;
-            }
-            
-            #Verduras img{
-                margin: 0 auto;
-                position: relative;
-                }
-                #Frutas{
-                    background-color: #3b0b33;
-                    width: 70%;
-                    margin: 0 auto;
-                    height: 700px;   
-                    
-                }
-                
-                #Frutas figure{
-                    margin: 0px;
-                    position: relative;   
-            
-                    padding: 10px;
-                    
-                }
-                #Frutas p{
-                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-                    position: relative;
-                    text-align: center;
-                    color: white;
-                }
-                
-                #Frutas img{
-                    margin: 0 auto;
-                    position: relative;
-                    }
-                    #Peixes{
-                        background-color: #474023;
-                        width: 70%;
-                        margin: 0 auto;
-                        height: 500px;   
-                        
-                    }
-                    
-                    #Peixes figure{
-                        margin: 0px;
-                        position: relative;   
-                        float: left;
-                        padding: 10px;
-                        
-                    }
-                    #Peixes p{
-                        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-                        position: relative;
-                        text-align: center;
-                        color: white;
-                    }
-                    
-                    #Peixes img{
-                        margin: 0 auto;
-                        margin-left: 40px;
-                        }       
-                        
-#Temperos img, #caixa3 img, #caixa2 img{
- margin-right: 1000px;
- 
+}           
+#Contato{
+    background-color: grey;
+    width: 70%;
+    margin: 0 auto;
+    height: 380px;
+    margin-top: 20px;   
+    text-align: center;
+} 
+#Contato input{
+    background-color: #dbd035c7;
 }
+    footer{
+        width: 100%;
+        background-color: red;
+        text-align: center;
+    }
 
