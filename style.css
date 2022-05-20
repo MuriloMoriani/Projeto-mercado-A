@@ -27,8 +27,8 @@ margin: auto;
   margin: auto ;
   margin-left: 2px;
   position: fixed;
-  left: 1140px;
-  height: 70%;
+  left: 87%;
+  height: 68%;
   bottom: 45px;
 }
 .menu nav{
@@ -104,3 +104,25 @@ h2{
     right: 100px;
     
 }
+
+#caixa3{
+    background-color: #3DD609;
+    width: 900px;
+    margin: 0 auto;
+    height: 500px;
+}
+
+#caixa3 figure{
+    margin: 0 auto;
+    position: relative;
+    left: 400px;
+    top: 150px;
+}
+
+#caixa3 p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    right: 100px;
+    
+}
+
