@@ -20,16 +20,13 @@ margin: auto;
 }
 
 .menu{
-  width: 150px;
-  padding: 10px;
-  padding-left: 0px;
-  border: 2px solid gray;
-  margin: auto ;
-  margin-left: 2px;
-  position: fixed;
-  left: 87%;
-  height: 68%;
-  bottom: 45px;
+    position: fixed;
+    float: right;
+    bottom: 100px;
+    border: 1px solid black;
+    margin-right: 0;
+    margin-left: 0;
+    width: 14%;
 }
 .menu nav{
     margin: auto;
@@ -102,7 +99,7 @@ border: 2px red;
     text-align: center;
 }
 #caixa2{
-    background-color: #E349DD;
+    background-color: #9faa3d;
     width: 70%;
     margin: 0 auto;
     height: 500px;
