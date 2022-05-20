@@ -200,4 +200,10 @@ li {
     float: left;
     padding: 10px;
 }
+#Doces p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    text-align: center;
+    color: white;
+}
 
