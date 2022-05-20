@@ -13,7 +13,7 @@ header{
 header img{
 margin: auto;
     position: relative;
-    left: 1150px;
+    left: 92%;
     bottom: 90px;
     height: 140px;
 
@@ -27,8 +27,8 @@ margin: auto;
   margin: auto ;
   margin-left: 2px;
   position: fixed;
-  left: 1140px;
-  height: 70%;
+  left: 87%;
+  height: 68%;
   bottom: 45px;
 }
 .menu nav{
