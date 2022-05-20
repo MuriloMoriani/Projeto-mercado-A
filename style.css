@@ -98,7 +98,9 @@ h2{
     top: 150px;
 }
 
-.caixa2 figcaption{
+.caixa2 p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    right: 100px;
     
 }
