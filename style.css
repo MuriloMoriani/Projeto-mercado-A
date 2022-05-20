@@ -85,10 +85,20 @@ h2{
 }
 
 .caixa2{
-    background-color: mediumorchid;
+    background-color: #665c49;
     width: 900px;
     margin: 0 auto;
     height: 500px;
 
 }
-.caixa2 figcaption
+.caixa2 figure{
+    margin: 0 auto;
+    position: relative;
+    left: 400px;
+    top: 150px;
+}
+
+.caixa2 figcaption{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
