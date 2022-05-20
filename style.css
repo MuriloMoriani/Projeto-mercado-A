@@ -96,16 +96,54 @@ flex-direction: row;
     height: 500px;
 
 }
+#caixa2 img{
+margin: 0 auto;
+position: relative;
+left: 400px;
+}
 #caixa2 figure{
     margin: 0 auto;
     position: relative;
-    left: 400px;
     top: 150px;
 }
 
 #caixa2 p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: relative;
-    right: 100px;
+    text-align: center;
+}
+
+#caixa3{
+    background-color: #E349DD;
+    width: 900px;
+    margin: 0 auto;
+    height: 500px;
+}
+#caixa3 img{
+    margin: 0 auto;
+    position: relative;
+    left: 400px;
+    }
+
+#caixa3 figure{
+    margin: 0 auto;
+    position: relative;
+    top: 150px;
+}
+
+#caixa3 p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
     
+}
+li {
+    list-style-type: none;
+  }
+.menu{
+   background-color: #0AC5FA; 
 }
