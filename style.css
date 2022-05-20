@@ -197,6 +197,7 @@ li {
 #Doces figure{
     margin: 0px;
     position: relative;   
-    float: right;
+    float: left;
+    padding: 10px;
 }
 
