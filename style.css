@@ -99,9 +99,7 @@ left: 400px;
 #caixa2 figure{
     margin: 0 auto;
     position: relative;
-
     top: 150px;
-    background-color: white;
 }
 
 #caixa2 p{
@@ -111,7 +109,7 @@ left: 400px;
 }
 
 #caixa3{
-    background-color: #3DD609;
+    background-color: #665c49;
     width: 900px;
     margin: 0 auto;
     height: 500px;
@@ -119,21 +117,19 @@ left: 400px;
 #caixa3 img{
     margin: 0 auto;
     position: relative;
-    left: 300px;
+    left: 400px;
     }
 
 #caixa3 figure{
     margin: 0 auto;
     position: relative;
-
     top: 150px;
 }
 
 #caixa3 p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: relative;
-    right: 100px;
-    
+    text-align: center;
 }
 
 a{
