@@ -52,7 +52,7 @@ img{
 }
 .caixa{
     width: 82%;
-    height: 800px;
+    height: 1000px;
     background-color: rgb(26, 131, 131);
     flex-wrap: wrap;
     margin: auto;
@@ -102,17 +102,17 @@ border: 2px red;
     text-align: center;
 }
 #caixa2{
-    background-color: #3f3a3f;
+    background-color: #E349DD;
     width: 70%;
     margin: 0 auto;
     height: 500px;
-    color: white;
 }
 #caixa2 img{
-margin: 0 auto;
-position: relative;
-left: 400px;
-}
+    margin: 0 auto;
+    position: relative;
+    left: 400px;
+    }
+
 #caixa2 figure{
     margin: 0 auto;
     position: relative;
