@@ -290,4 +290,18 @@ li {
                 margin: 0 auto;
                 position: relative;
                 }
-            
+#Contato{
+    margin: auto;
+    padding: auto;
+    width: 70%;
+    text-align: center;
+}
+#Contato input, textarea{
+    background-color: rgba(241, 241, 59, 0.603);
+    border: black 1px solid;
+}
+fieldset{
+    margin: auto;
+    border: black solid 4px;
+    background-color: rgb(175, 170, 170);
+}
