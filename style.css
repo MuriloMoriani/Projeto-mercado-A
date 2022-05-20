@@ -90,7 +90,8 @@ h2{
 .caixa figure{
 width: 250px;
 height: 250px;
-margin: 5px;
+margin: auto;
+margin-left: 90px;
 float: left;
 
 box-sizing: border-box;
