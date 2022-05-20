@@ -126,3 +126,17 @@ h2{
     
 }
 
+#Doces{
+    background-color: #493748;
+    width: 60%;
+    margin: auto;
+    height: 60%;
+}
+
+#Doces figure{
+    margin: 0 auto;
+    position: relative;
+    left: 400px;
+    top: 150px;
+}
+
