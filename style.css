@@ -101,14 +101,11 @@ border: 2px red;
     text-align: center;
 }
 #caixa2{
-    background-color: #665c49;
-    width: 85%;
+    background-color: #3f3a3f;
+    width: 900px;
     margin: 0 auto;
-    position: relative;
     height: 500px;
-    right: 95px;
-    border: solid 1px red;
-
+    color: white;
 }
 #caixa2 img{
 margin: 0 auto;
