@@ -142,3 +142,26 @@ li {
 .menu{
    background-color: #0AC5FA; 
 }
+#Temperos{
+    background-color: #E349DD;
+    width: 900px;
+    margin: 0 auto;
+    height: 500px;
+}
+#Temperos img{
+    margin: 0 auto;
+    position: relative;
+    left: 400px;
+    }
+
+#Temperos figure{
+    margin: 0 auto;
+    position: relative;
+    top: 150px;
+}
+
+#Temperos p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    text-align: center;
+}
