@@ -58,8 +58,9 @@ img{
     background-color: #3b0b33;
     width: 70%;
     margin: 0 auto;
-    height: 1100px;
-    margin-top: 20px;   
+    height: 600px;
+    margin-top: 20px; 
+    border: 1px solid black; 
     
 }
 
@@ -74,6 +75,7 @@ img{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     color: white;
+
 }
 
 #caixa img{
@@ -168,6 +170,7 @@ li {
     margin: 0 auto;
     height: 500px;
     margin-top: 20px;
+    border: 1px solid black; 
 
 }
 #Temperos img{
@@ -196,7 +199,8 @@ li {
     width: 70%;
     margin: 0 auto;
     height: 500px;
-    margin-top: 20px;   
+    margin-top: 20px; 
+    border: 1px solid black;   
     
 }
 
@@ -222,8 +226,9 @@ position: relative;
     background-color: #FDA442;
     width: 70%;
     margin: 0 auto;
-    height: 1150px; 
+    height: 600px; 
     margin-top: 20px;  
+    border: 1px solid black; 
     
 }
 
@@ -249,8 +254,9 @@ position: relative;
     background-color: #B2FFF0;
     width: 70%;
     margin: 0 auto;
-    height: 910px; 
-    margin-top: 20px;  
+    height: 500px; 
+    margin-top: 20px; 
+    border: 1px solid black;  
     
 }
 
@@ -276,8 +282,9 @@ position: relative;
     background-color: #FFA780;
     width: 70%;
     margin: 0 auto;
-    height: 800px;
+    height: 500px;
     margin-top: 20px;   
+    border: 1px solid black; 
     
 }
 
@@ -302,8 +309,9 @@ position: relative;
     background-color: #3b0b33;
     width: 70%;
     margin: 0 auto;
-    height: 700px;  
+    height: 550px;  
     margin-top: 20px; 
+    border: 1px solid black; 
     
 }
 
@@ -329,7 +337,9 @@ position: relative;
     width: 70%;
     margin: 0 auto;
     height: 500px;
-    margin-top: 20px;   
+    margin-top: 20px;  
+    border: 1px solid black; 
+    box-shadow: 1px black;
     
 }
 
@@ -352,16 +362,13 @@ position: relative;
     position: relative;
 }           
 #Contato{
-    background-color: grey;
+    background-color:#2F4F4F;
     width: 70%;
     margin: 0 auto;
     height: 380px;
     margin-top: 20px;   
     text-align: center;
 } 
-#Contato input{
-    background-color: #dbd035c7;
-}
     footer{
         width: 100%;
         background-color: red;
