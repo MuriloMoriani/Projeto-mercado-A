@@ -13,6 +13,9 @@
     <img src="imagens/logoA.png">                     
 </header>
 <body>
+    <button id="botao">
+        ↑
+    </button>
         <section class="menu">
             <nav><ul>
             <li><a href="#caixa">Carnes/Frango</a></li> <br>
@@ -500,6 +503,14 @@
                     </button>
                     </fieldset></form>    
         </section>
+        <script>
+            const botao = document.querySelector("#botao")
+
+            botao.addEventListener("click", function (){
+                window.scrollTo(0,0);
+
+            });
+        </script>
         <footer> Murilo Moriani RGM:29960819 | Lucas Neves RGM 29145279 | Matheus Polato:29515157 | Juam Kenji RGM:29151414 | Erick Akio RGM:30325862</footer>
 </body>
 </html>
