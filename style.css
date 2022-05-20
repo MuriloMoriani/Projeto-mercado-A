@@ -1,6 +1,14 @@
 body{
     width: 99%;
     height: 100%;
+<<<<<<< HEAD
+}  
+
+#menu{
+    width: 200px;
+    border: 15px solid green;
+    background-color: blueviolet;
+=======
 }
 
 header{
@@ -19,4 +27,5 @@ header img{
     display: block;
     margin-top: 0px;
     
+>>>>>>> a904c92921fad0383c4f714a357b47eca1bccacf
 }
