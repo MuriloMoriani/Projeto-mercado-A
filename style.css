@@ -2,12 +2,10 @@ body{
     width: 100%;
     height: 100%;
 }  
+
 header{
-    background-color: brown;
-    margin: auto; 
-    width: 100%;
-    height: 120px;
-    margin-bottom: 50px;
+background-color: red;
+height: 150px;
 }
 header img{
 margin: auto;
@@ -48,56 +46,43 @@ img{
     height: 100px;
 }
 #caixa{
-    width: 82%;
-    height: 1000px;
-    background-color: rgb(26, 131, 131);
-    flex-wrap: wrap;
-    margin: auto;
-    margin-left: 80px;
-    position: relative;
-    right: 80px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    border: solid 1px red;
-    padding: 20px;
-    justify-content: center;
-
-}
-#caixa img{
-    margin: auto;
-    padding: 0%;
-    margin-top: 2px;
-    margin-left: 60px;
-}
-#caixa h2{
-    text-align: center;
-    margin: auto;
-    margin-top: 5px;
-    position: relative;
-    left: 1%;
+    background-color: #3b0b33;
+    width: 70%;
+    margin: 0 auto;
+    height: 1100px;   
+    
 }
 
-h2{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20pt;
-    text-align: center;
-    background-color: black;
-    color: white;
-}
 #caixa figure{
-width: 250px;
-height: 250px;
-margin: auto;
-margin-left: 90px;
-float: left;
-
-box-sizing: border-box;
-border: 2px red;
+    margin: 0px;
+    position: relative;   
+    padding: 10px;
+    top: 20px;
+    
 }
 #caixa p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
+    color: white;
 }
+
+#caixa img{
+    margin: 0 auto;
+    }
+    figure{
+        display: inline-block;
+        width: 150px;
+        height: 140px;
+        margin: auto;
+        padding: 10px;
+        margin-bottom: 100px;
+    }
+    figure img{
+        width: 100px;
+        left: 25px;
+        margin-left: 150px;
+        margin: auto;
+    }
 #caixa2{
     background-color: #9faa3d;
     width: 70%;
@@ -119,7 +104,15 @@ border: 2px red;
 #caixa2 p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: relative;
+    left: 400px;
+    color: white;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
     text-align: center;
+    background-color: black;
+    color: white;
 }
 
 #caixa3{
@@ -127,6 +120,7 @@ border: 2px red;
     width: 70%;
     margin: 0 auto;
     height: 500px;
+    
 }
 #caixa3 img{
     margin: 0 auto;
@@ -144,6 +138,8 @@ border: 2px red;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: relative;
     text-align: center;
+    left: 380px;
+    color: white;
 }
 
 a{
@@ -158,7 +154,7 @@ li {
 }
 
 #Temperos{
-    background-color: #3BE344;
+    background-color: #28702b;
     width: 70%;
     margin: 0 auto;
     height: 500px;
@@ -180,6 +176,8 @@ li {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: relative;
     text-align: center;
+    left: 380px;
+    color: white;
 }
 
 
@@ -221,7 +219,6 @@ li {
     #Bebidas figure{
         margin: 0px;
         position: relative;   
-        float: left;
         padding: 10px;
         
     }
@@ -239,7 +236,7 @@ li {
 
 
         #Higiene{
-            background-color: #B2FFF0;
+            background-color: #145e4f;
             width: 70%;
             margin: 0 auto;
             height: 910px;   
@@ -257,7 +254,7 @@ li {
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             position: relative;
             text-align: center;
-            color: black;
+            color: rgb(255, 255, 255);
         }
         
         #Higiene img{
@@ -265,7 +262,7 @@ li {
             position: relative;
             }
             #Verduras{
-                background-color: #3b0b33;
+                background-color: #FFA780;
                 width: 70%;
                 margin: 0 auto;
                 height: 800px;   
@@ -275,7 +272,6 @@ li {
             #Verduras figure{
                 margin: 0px;
                 position: relative;   
-                float: left;
                 padding: 10px;
                 
             }
@@ -290,18 +286,61 @@ li {
                 margin: 0 auto;
                 position: relative;
                 }
-#Contato{
-    margin: auto;
-    padding: auto;
-    width: 70%;
-    text-align: center;
+                #Frutas{
+                    background-color: #3b0b33;
+                    width: 70%;
+                    margin: 0 auto;
+                    height: 700px;   
+                    
+                }
+                
+                #Frutas figure{
+                    margin: 0px;
+                    position: relative;   
+            
+                    padding: 10px;
+                    
+                }
+                #Frutas p{
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    position: relative;
+                    text-align: center;
+                    color: white;
+                }
+                
+                #Frutas img{
+                    margin: 0 auto;
+                    position: relative;
+                    }
+                    #Peixes{
+                        background-color: #474023;
+                        width: 70%;
+                        margin: 0 auto;
+                        height: 500px;   
+                        
+                    }
+                    
+                    #Peixes figure{
+                        margin: 0px;
+                        position: relative;   
+                        float: left;
+                        padding: 10px;
+                        
+                    }
+                    #Peixes p{
+                        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                        position: relative;
+                        text-align: center;
+                        color: white;
+                    }
+                    
+                    #Peixes img{
+                        margin: 0 auto;
+                        margin-left: 40px;
+                        }       
+                        
+#Temperos img, #caixa3 img, #caixa2 img{
+ margin-right: 1000px;
+ 
 }
-#Contato input, textarea{
-    background-color: rgba(241, 241, 59, 0.603);
-    border: black 1px solid;
-}
-fieldset{
-    margin: auto;
-    border: black solid 4px;
-    background-color: rgb(175, 170, 170);
-}
+
