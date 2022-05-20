@@ -10,12 +10,11 @@ header{
     margin-bottom: 50px;
 }
 header img{
-    margin: auto;
-    margin-left: 1150px;
-    height: 105%;
-    width: auto;
-    display: block;
-    margin-top: 0px;
+margin: auto;
+    position: relative;
+    left: 1150px;
+    bottom: 90px;
+    height: 140px;
 
 }
 .menu{
@@ -23,4 +22,14 @@ header img{
   padding: 10px;
   border: 5px solid gray;
   margin: auto ;
+}
+header h1{
+    width: auto;
+    text-align: center;
+    height: auto;
+    position: relative;
+    left: 0;
+    font-size: 50pt;
+    margin: auto;
+    top: 15px;
 }
