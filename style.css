@@ -209,3 +209,85 @@ li {
     margin: 0 auto;
     position: relative;
     }
+
+    #Bebidas{
+        background-color: #FDA442;
+        width: 70%;
+        margin: 0 auto;
+        height: 1150px;   
+        
+    }
+    
+    #Bebidas figure{
+        margin: 0px;
+        position: relative;   
+        float: left;
+        padding: 10px;
+        
+    }
+    #Bebidas p{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+    
+    #Bebidas img{
+        margin: 0 auto;
+        position: relative;
+        }
+
+
+        #Higiene{
+            background-color: #B2FFF0;
+            width: 70%;
+            margin: 0 auto;
+            height: 910px;   
+            
+        }
+        
+        #Higiene figure{
+            margin: 0px;
+            position: relative;   
+            float: left;
+            padding: 10px;
+            
+        }
+        #Higiene p{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            position: relative;
+            text-align: center;
+            color: black;
+        }
+        
+        #Higiene img{
+            margin: 0 auto;
+            position: relative;
+            }
+            #Verduras{
+                background-color: #3b0b33;
+                width: 70%;
+                margin: 0 auto;
+                height: 800px;   
+                
+            }
+            
+            #Verduras figure{
+                margin: 0px;
+                position: relative;   
+                float: left;
+                padding: 10px;
+                
+            }
+            #Verduras p{
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                position: relative;
+                text-align: center;
+                color: white;
+            }
+            
+            #Verduras img{
+                margin: 0 auto;
+                position: relative;
+                }
+            
