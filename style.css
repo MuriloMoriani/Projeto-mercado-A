@@ -52,28 +52,32 @@ img{
 }
 .caixa{
     width: 82%;
-    height: 1000px;
+    height: 1300px;
     background-color: rgb(26, 131, 131);
-    display: grid;
-    grid-template-columns: 20px 20px 20px 20px;
-    grid-template-rows: 20px 20px 20px 20px;
-    grid-gap: 250px;
+    flex-wrap: wrap;
     margin: auto;
-    margin-left: 50px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-left: 80px;
+    position: relative;
+    right: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: solid 1px red;
+    padding: 20px;
+    justify-content: center;
 
 }
 .caixa img{
-position: relative;
-top: 110px;
+    margin: auto;
+    padding: 0%;
+    margin-top: 2px;
+    margin-left: 60px;
 }
 .caixa h2{
     text-align: center;
     margin: auto;
     margin-top: 5px;
     position: relative;
-    left: 400px;
+    left: 1%;
 }
 
 h2{
@@ -83,12 +87,27 @@ h2{
     background-color: black;
     color: white;
 }
+.caixa figure{
+width: 250px;
+height: 250px;
+margin: 5px;
+float: left;
 
+box-sizing: border-box;
+border: 2px red;
+}
+.caixa p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
 #caixa2{
     background-color: #665c49;
-    width: 900px;
+    width: 85%;
     margin: 0 auto;
+    position: relative;
     height: 500px;
+    right: 95px;
+    border: solid 1px red;
 
 }
 #caixa2 img{
@@ -166,3 +185,19 @@ li {
     position: relative;
     text-align: center;
 }
+
+
+#Doces{
+    background-color: #3b0b33;
+    width: 900px;
+    margin: 0 auto;
+    height: 500px;   
+}
+
+#Doces figure{
+    margin: 0px;
+    position: relative;   
+    float: left;
+    padding: 10px;
+}
+
