@@ -54,14 +54,16 @@ img{
     width: 82%;
     height: 1300px;
     background-color: rgb(26, 131, 131);
-
+    flex-wrap: wrap;
     margin: auto;
-    margin-left: 100px;
+    margin-left: 80px;
+    position: relative;
+    right: 80px;
     margin-top: 50px;
     margin-bottom: 50px;
     border: solid 1px red;
     padding: 20px;
-   
+    justify-content: center;
 
 }
 .caixa img{
@@ -86,7 +88,6 @@ h2{
     color: white;
 }
 .caixa figure{
-background-color: white;
 width: 250px;
 height: 250px;
 margin: 5px;
@@ -97,12 +98,16 @@ border: 2px red;
 }
 .caixa p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
 }
 #caixa2{
     background-color: #665c49;
-    width: 900px;
+    width: 85%;
     margin: 0 auto;
+    position: relative;
     height: 500px;
+    right: 95px;
+    border: solid 1px red;
 
 }
 #caixa2 img{
