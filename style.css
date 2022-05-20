@@ -185,3 +185,18 @@ li {
     position: relative;
     text-align: center;
 }
+
+
+#Doces{
+    background-color: #3b0b33;
+    width: 900px;
+    margin: 0 auto;
+    height: 500px;   
+}
+
+#Doces figure{
+    margin: 0px;
+    position: relative;   
+    float: right;
+}
+
