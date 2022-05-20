@@ -52,7 +52,7 @@ img{
 }
 .caixa{
     width: 82%;
-    height: 1300px;
+    height: 800px;
     background-color: rgb(26, 131, 131);
     flex-wrap: wrap;
     margin: auto;
@@ -167,6 +167,7 @@ li {
     width: 900px;
     margin: 0 auto;
     height: 500px;
+
 }
 #Temperos img{
     margin: 0 auto;
@@ -192,6 +193,7 @@ li {
     width: 900px;
     margin: 0 auto;
     height: 500px;   
+    
 }
 
 #Doces figure{
@@ -199,6 +201,7 @@ li {
     position: relative;   
     float: left;
     padding: 10px;
+    
 }
 #Doces p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -207,3 +210,7 @@ li {
     color: white;
 }
 
+#Doces img{
+    margin: 0 auto;
+    position: relative;
+    }
