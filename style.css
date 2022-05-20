@@ -83,3 +83,12 @@ h2{
     background-color: black;
     color: white;
 }
+
+.caixa2{
+    background-color: mediumorchid;
+    width: 900px;
+    margin: 0 auto;
+    height: 500px;
+
+}
+.caixa2 figcaption
