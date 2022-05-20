@@ -1,3 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
 body{
     width: 100%;
     height: 100%;
@@ -5,6 +11,7 @@ body{
 header{
 background-color: red;
 height: 150px;
+margin-top: 0;
 }
 header img{
 margin: auto;
@@ -18,13 +25,15 @@ margin: auto;
 .menu{
     position: fixed;
     float: right;
-    bottom: 100px;
+    background-color: #0AC5FA; 
     border: 1px solid black;
-    margin-right: 0;
-    margin-left: 0;
     width: 14%;
+    margin-top: 20px;
+    margin-left: 7px;
+
 
 }
+.menu a{margin-left: 30px;}
 .menu nav{
     margin: auto;
     padding: 0;
@@ -48,7 +57,8 @@ img{
     background-color: #3b0b33;
     width: 70%;
     margin: 0 auto;
-    height: 1100px;   
+    height: 1100px;
+    margin-top: 20px;   
     
 }
 
@@ -75,6 +85,7 @@ img{
     width: 70%;
     margin: 0 auto;
     height: 500px;
+    margin-top: 20px;
 }
 #caixa2 img{
     margin: 0 auto;
@@ -106,6 +117,7 @@ h2{
     width: 70%;
     margin: 0 auto;
     height: 500px;
+    margin-top: 20px;
 }
 #caixa3 img{
     margin: 0 auto;
@@ -132,15 +144,14 @@ a{
 li {
     list-style-type: none;
   }
-.menu{
-   background-color: #0AC5FA; 
-}
+
 
 #Temperos{
     background-color: #3BE344;
     width: 70%;
     margin: 0 auto;
     height: 500px;
+    margin-top: 20px;
 
 }
 #Temperos img{
@@ -166,7 +177,8 @@ li {
     background-color: #3b0b33;
     width: 70%;
     margin: 0 auto;
-    height: 500px;   
+    height: 500px;
+    margin-top: 20px;   
     
 }
 
@@ -193,7 +205,8 @@ li {
         background-color: #FDA442;
         width: 70%;
         margin: 0 auto;
-        height: 1150px;   
+        height: 1150px; 
+        margin-top: 20px;  
         
     }
     
@@ -221,7 +234,8 @@ li {
             background-color: #B2FFF0;
             width: 70%;
             margin: 0 auto;
-            height: 910px;   
+            height: 910px; 
+            margin-top: 20px;  
             
         }
         
@@ -247,7 +261,8 @@ li {
                 background-color: #FFA780;
                 width: 70%;
                 margin: 0 auto;
-                height: 800px;   
+                height: 800px;
+                margin-top: 20px;   
                 
             }
             
@@ -273,7 +288,8 @@ li {
                     background-color: #3b0b33;
                     width: 70%;
                     margin: 0 auto;
-                    height: 700px;   
+                    height: 700px;  
+                    margin-top: 20px; 
                     
                 }
                 
@@ -299,7 +315,8 @@ li {
                         background-color: #474023;
                         width: 70%;
                         margin: 0 auto;
-                        height: 500px;   
+                        height: 500px;
+                        margin-top: 20px;   
                         
                     }
                     
